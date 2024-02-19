@@ -1,0 +1,101 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+}
+
+.neon {
+	Position: absolute;
+	top: 70%;
+	Left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0 20px;
+	font-size: 60;
+	color: #00ff17;
+	text-shadow: 0 0 20px #ffffff;
+}
+
+.neon.after {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 20px;
+	z-index: -1;
+	color: #ffffff;
+	filter: blur(15px);
+}
+
+.neon.before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	z-index: -2;
+	opacity: .5;
+	filter: blur(40px);
+}
+
+
+.button {
+	
+	background-color: #000080;
+	border: none;
+	color: #00ff17;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 40px;
+	
+}
+
+.button:hover {
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
