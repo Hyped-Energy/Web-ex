@@ -97,7 +97,7 @@ li.navText {
 	
 }
 
-@media (min-width: 500px) {
+@media (min-width: 200px) {
 	.SettingIcon {
 		display: none;
 		}
